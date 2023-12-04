@@ -6,20 +6,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Lernantino // Web Developer</title>
-  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="./css/reset.css" />
+  <link rel="stylesheet" href="./css/style.css" />
 </head>
 
 <body>
-  <!-- main logo / nav bbbbb -->
+  <!-- main logo / nav -->
   <header>
     <h1>Lernantino</h1>
     <nav>
+      <ul>
+        <li><a>About me </a></li>
+        <li><a>Work </a></li>
+        <li><a>Contact Me </a></li>
+        <li><a>Resume </a></li>
+      </ul>
     </nav>
   </header>
 
   <!-- hero banner -->
   <section class="hero-banner">
-    <div>
+    <div class="hero-text">
       <h2>Cool subtitle here!</h2>
     </div>
   </section>
@@ -28,16 +35,41 @@
     <!-- about me -->
     <section class="page-section" id="about">
       <h2>About Me</h2>
+      <p id="about-text"> 
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+        laborum. 
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+        laborum. 
+      </p>
     </section>
 
     <!-- portfolio container -->
     <section class="page-section" id="work">
       <h2>Work</h2>
+      <section class="portfolio-grid"> 
+        <img src="./images/02-portfolio-1.jpg" id="portfolio-1">
+        <img src="./images/02-portfolio-2.jpg" id="portfolio-2">
+        <img src="./images/02-portfolio-3.jpg" id="portfolio-3"> 
+        <img src="images/02-portfolio-4.jpg" id="portfolio-4">
+      </section>
     </section>
 
     <!-- contact -->
-    <section class="page-section contact" id="contact">
+    <section class="page-section" id="contact">
       <h2>Contact Me</h2>
+      <ul>
+        <li><a>Telephone number </a></li>
+        <li><a>Gmail </a></li>
+        <li><a>Github </a></li>
+        <li><a>Twitter</a></li>
+        <li><a>Spotify</a></li>
+      </ul>
     </section>
   </main>
 </body>

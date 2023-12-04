@@ -1,23 +1,90 @@
-* {
-  box-sizing: border-box;
+:root{ 
+  --graient: rgba(122, 188, 201, 0.5);
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  line-height: 1.5;
+header{
+  display: flex;
+  padding: 1em 0;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
+header h1{
+  padding-left: 2em;
+  padding-right: 1em;
+  background-color: aquamarine;
+}
+nav { 
+  margin-left: auto;
 }
 
-p {
-  margin: 0;
+nav ul {
+  padding:  0 1em;
 }
+nav ul li {
+  display: inline;
+  text-decoration: underline;
+  padding: 1em;
+}
+
+.hero-banner{ 
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(var(--graient), var(--graient)), url("../images/02-hero-bg.jpg");
+  
+    /* Set a specific height */
+    height: 300px;
+  
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  /* Place text in the middle of the image */
+  .hero-text {
+    position: absolute;
+    top: 60%;
+    left: 80%;
+  }
+
+  img{
+    height: 100px;
+    width: 300px;
+  }
+
+  .page-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+
+  .page-section{
+    display: flex;
+    gap: 1em;
+  }
+
+  .page-section > h2{ 
+    flex-basis: 20%;
+    text-align: end;
+    font-size: 2em;
+    padding-left: 3em;
+  }
+
+  #about-text{
+    flex-basis: 80%;
+  }
+  
+  .portfolio-grid{
+    flex-basis: 80%;
+  }
+ 
+  #contact ul {
+    display: flex;
+    flex-grow: 1;
+    padding:  0 1em;
+    justify-content: space-evenly;
+  }
+  #contact ul li {
+    display: inline;
+    text-decoration: underline;
+    padding: 1em;
+  }
