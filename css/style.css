@@ -46,11 +46,6 @@ nav ul li {
     left: 80%;
   }
 
-  img{
-    height: 100px;
-    width: 300px;
-  }
-
   .page-wrapper{
     display: flex;
     flex-direction: column;
@@ -60,12 +55,12 @@ nav ul li {
   .page-section{
     display: flex;
     gap: 1em;
+    min-height: fit-content;
   }
 
   .page-section > h2{ 
     flex-basis: 20%;
     text-align: end;
-    font-size: 2em;
     padding-left: 3em;
   }
 
@@ -73,10 +68,63 @@ nav ul li {
     flex-basis: 80%;
   }
   
-  .portfolio-grid{
+  .page-section > ul{
     flex-basis: 80%;
   }
+  .portfolio-grid{  
+  flex-basis: 80%;
+  display: grid;
+  grid-template-rows: 50% 50%;
+  grid-template-areas:
+  "portfolio-1 portfolio-1"
+  "portfolio-2 portfolio-3"
+  "portfolio-4 portfolio-5"
+  ;
+  grid-gap: 10px;
+  }
  
+  .portfolioGridArea {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  display: grid;
+  align-content: end;
+  }
+  #portfolio-1 {
+    grid-area: portfolio-1;
+    background-image: url("../images/02-portfolio-1.jpg");
+  
+  }
+  #portfolio-2 {
+    grid-area: portfolio-2;
+    background-image: url("../images/02-portfolio-2.jpg");
+  }
+  
+  #portfolio-3 {
+    grid-area: portfolio-3;
+    background-image: url("../images/02-portfolio-3.jpg");
+  }
+  
+  #portfolio-4 {
+    grid-area: portfolio-4;
+    background-image: url("../images/02-portfolio-4.jpg");
+  }
+  
+  #portfolio-5 {
+    grid-area: portfolio-5;
+    background-image: url("../images/02-run-buddy.jpg");
+  }
+
+  .heading {
+    background-color: var(--graient);
+    padding: 15px;
+    height: 100px;
+    color: white;
+    font-size: 18px;
+    border-bottom: 5px solid #FF6200;
+  }
+
   #contact ul {
     display: flex;
     flex-grow: 1;
