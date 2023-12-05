@@ -24,7 +24,7 @@ The purpose of this portfolio website is to showcase my professional work, skill
 
 
 ![Screenshot of the first part website used for this challenge](./assets/images/screenshot-01.png)
-![Screenshot showing responsive desing](./assets/images/screenshot-02.PNG)
+![Screenshot showing responsive desing](./assets/images/screenshot-02.png)
 
 
 ## Installation
