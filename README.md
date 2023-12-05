@@ -60,7 +60,7 @@ https://dominik-jad.github.io/coding-portfolio/
 Flex box - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 <br>
 
-SGrid Layout - https://css-tricks.com/snippets/css/complete-guide-grid/
+Grid Layout - https://css-tricks.com/snippets/css/complete-guide-grid/
 
 Media queries - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries
 
