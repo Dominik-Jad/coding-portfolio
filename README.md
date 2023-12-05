@@ -6,7 +6,7 @@
   <ol>
     <li><a href="#Description">Description</a></li>
     <li><a href="#Screenshot">Screenshot</a></li>
-    <li><a href="#Installation ">Installation</a></li>
+    <li><a href="#Installation">Installation</a></li>
     <li><a href="#Usage">Usage</a></li>
     <li><a href="#Link">Link</a></li>
     <li><a href="#Credits">Credits</a></li>
